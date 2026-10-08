@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Settarov | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header class="navbar glass">
+        <div class="logo">AS.</div>
+        <nav>
+            <a href="#hero">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero / About Section -->
+        <section id="hero" class="section hero">
+            <div class="hero-content">
+                <h1 class="fade-in">Hi, I'm <span class="highlight">Artur Settarov</span></h1>
+                <h2 class="fade-in delay-1">Backend Developer</h2>
+                
+                <div class="glass card bio-card fade-in delay-2" style="margin-top: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; text-align: center;">
+                    <p>I am 21 years old, passionate about backend development and building scalable systems. Based in Samarkand.</p>
+                </div>
+
+                <div class="social-links fade-in delay-2" style="margin-top: 2rem;">
+                    <a href="https://github.com/Artur-Settarov0228" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://t.me/settarovartur" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="mailto:settarovartur00@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="glass card" style="text-align: center;">
+                <div class="tags" style="justify-content: center;">
+                    <span class="tag" style="font-size: 1.1rem; padding: 0.5rem 1rem;">Python</span>
+                    <span class="tag" style="font-size: 1.1rem; padding: 0.5rem 1rem;">Django</span>
+                    <span class="tag" style="font-size: 1.1rem; padding: 0.5rem 1rem;">FastAPI</span>
+                    <span class="tag" style="font-size: 1.1rem; padding: 0.5rem 1rem;">Telegram Bots</span>
+                    <span class="tag" style="font-size: 1.1rem; padding: 0.5rem 1rem;">JavaScript</span>
+                    <span class="tag" style="font-size: 1.1rem; padding: 0.5rem 1rem;">Git</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item glass card">
+                    <h3>Middle Backend Developer</h3>
+                    <h4>Google</h4>
+                    <span class="location"><i class="fas fa-map-marker-alt"></i> Samarkand</span>
+                    <p style="margin-top: 1rem; color: var(--text-secondary);">Backend development and scalable system architecture.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item glass card">
+                    <h3>Multimedia Technologies (MT)</h3>
+                    <h4>TUIT (TATU)</h4>
+                    <span class="location"><i class="fas fa-map-marker-alt"></i> Samarkand</span>
+                    <p style="margin-top: 1rem; color: var(--text-secondary);">Studied software engineering, multimedia, and computer science fundamentals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass card">
+                    <h3>Backend APIs & Bots</h3>
+                    <p style="margin: 1rem 0; color: var(--text-secondary);">Developed various backend services and Telegram bots.</p>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Telegram Bot</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">FastAPI</span>
+                    </div>
+                    <div class="project-links" style="margin-top: 1.5rem;">
+                        <a href="https://github.com/Artur-Settarov0228" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="glass card contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+998933569093</p>
+                </div>
+                <div class="glass card contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <p>@settarovartur</p>
+                </div>
+                <div class="glass card contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>settarovartur00@gmail.com</p>
+                </div>
+                <div class="glass card contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Samarkand</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass">
+        <p>&copy; 2026 Artur Settarov. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

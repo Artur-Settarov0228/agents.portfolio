@@ -1,0 +1,22 @@
+{
+    "personal": {
+        "name": "",
+        "title": "",
+        "photo": "",
+        "bio": "",
+        "location": "",
+        "email": "",
+        "phone": ""
+    },
+    "social": {
+        "github": "",
+        "linkedin": "",
+        "telegram": ""
+    },
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "projects": [],
+    "certificates": [],
+    "achievements": []
+}
